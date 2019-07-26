@@ -1,31 +1,80 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "reportSpec":[
+      {
+        "title": "Shipped Jobs",
+        "subtitle": "August 2019, Corpus Christi",
+        "timestamp": "09/13/2019 16:25:17",
+        "sort": "shipped",
+        "columnsMap":[ 
+            { 
+              "name": "kmcNo",
+            "label": "KMC#",
+            "type": "text",
+            "align": "center",
+            "filter": "yes",
+            "sort": "yes",
+            "total": "no" 
+          },
+            { 
+              "name": "sales",
+              "label": "Sales",
+              "type": "text",
+              "align": "center",
+              "filter": "yes",
+              "sort": "yes",
+              "total": "no" 
+            },
+            { 
+              "name": "address",
+              "label": "Address",
+              "type": "text",
+              "align": "left",
+              "filter": "yes",
+              "sort": "yes",
+              "total": "no" 
+            },
+            {
+             "name": "shipped",
+              "label": "Ship Date",
+              "type": "date",
+              "align": "center",
+              "filter": "yes",
+              "sort": "yes",
+              "total": "no" 
+            },
+            { 
+              "name": "cabs",
+              "label": "Cab Cnt",
+              "type": "number",
+              "align": "right",
+              "filter": "yes",
+              "sort": "yes",
+              "total": "no" 
+            },
+            { 
+              "name": "price",
+              "label": "Price",
+              "type": "currency",
+              "align": "left",
+              "filter": "yes",
+              "sort": "yes",
+              "total": "yes" 
+            } 
+          ]
+      }
+    ],
+    "reportSpecData": [     
+    { "kmcNo": "1234", "sales" : "18", "address": "219 LEYDEN CT", "shipped": "08/24/2019",
+        "cabs": "38", "price": "17559.00" },
+      { "kmcNo": "V0NT", "sales": "16", "address": "909 TEXAS AVE, NO 1511)", "shipped": "08/03/2019",
+        "cabs": "12", "price": "4025.00" },
+      { "kmcNo": "V0V0", "sales": "18", "address": "21 PINEDALE, NO 8", "shipped": "08/16/2019",
+        "cabs": "8", "price": "512.16" },
+      { "kmcNo": "2MP7", "sales": "21", "address": "705 MAIN ST, NO 612", "shipped": "08/02/2019",
+        "cabs": "74", "price": "32612.44" },
+      { "kmcNo": "2N7T", "sales": "15", "address": "711 WILLIAM ST", "shipped": "08/28/2019",
+        "cabs": "12", "price": "8235.77" },
+      { "kmcNo": "1P2R", "sales": "16", "address": "4511 AVERILL ST", "shipped": "08/16/2019",
+        "cabs": "20", "price": "8000.00" }
+    ]
 }
