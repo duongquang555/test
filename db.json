@@ -1,4 +1,4 @@
-{
+[{
     "reportSpec":[
       {
         "title": "Shipped Jobs",
@@ -77,4 +77,4 @@
       { "kmcNo": "1P2R", "sales": "16", "address": "4511 AVERILL ST", "shipped": "08/16/2019",
         "cabs": "20", "price": "8000.00" }
     ]
-}
+}]
