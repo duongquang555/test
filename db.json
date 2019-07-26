@@ -1,4 +1,6 @@
-{"Get"=[{
+{
+  "Get" : [
+    {
     "reportSpec":[
       {
         "title": "Shipped Jobs",
@@ -49,8 +51,8 @@
             "total": "yes" } ]
       }
     ],
-    "reportSpecData:[
-      { "kmcNo": "1234", "sales" : "18", "address": "219 LEYDEN CT", "shipped": "08/24/2019",
+    "reportSpecData": [     
+    { "kmcNo": "1234", "sales" : "18", "address": "219 LEYDEN CT", "shipped": "08/24/2019",
         "cabs": "38", "price": "17559.00" },
       { "kmcNo": "V0NT", "sales": "16", "address": "909 TEXAS AVE, NO 1511)", "shipped": "08/03/2019",
         "cabs": "12", "price": "4025.00" },
@@ -61,7 +63,7 @@
       { "kmcNo": "2N7T", "sales": "15", "address": "711 WILLIAM ST", "shipped": "08/28/2019",
         "cabs": "12", "price": "8235.77" },
       { "kmcNo": "1P2R", "sales": "16", "address": "4511 AVERILL ST", "shipped": "08/16/2019",
-        "cabs": "20", "price": "8000.00" },
+        "cabs": "20", "price": "8000.00" }
     ]
   }
 ]
