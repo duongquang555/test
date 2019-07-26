@@ -1,4 +1,4 @@
-{
+{"Get"=[{
     "reportSpec":[
       {
         "title": "Shipped Jobs",
@@ -64,3 +64,5 @@
         "cabs": "20", "price": "8000.00" },
     ]
   }
+]
+}
